@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Form Sample</title>
+  </head>
+  <body>
+    <nav><a href="index.html">Повернутись до котиків</a></nav>
+    <h2>Анкета</h2>
+    <p>
+      Друже, твоя задача відповісти на пару запитань та відправити мені
+      відповіді!
+    </p>
+    <form
+      method="POST"
+      action="https://formspree.io/diana.soldatova.xr.2016@lpnu.ua"
+    >
+      <label> Твоє ім'я: <input type="text" placeholder="Твоє ім'я" /></label>
+      <br />
+      <label>
+        Ім'я твого пухнастика:
+        <input type="text" placeholder="Ім'я пухнастика" name="user-name"
+      /></label>
+      <br />
+      <label for="Порода"> Порода тварини:</label><br />
+      <input type="text" name="user-name" id="Порода" /><br />
+      <label for="email-input"> Твій Email:</label><br />
+      <input type="email" name="user-name" id="email-inpuct" /><br />
+      <label>Твоя стать:</label>
+      <label
+        ><input type="radio" name="gender" value="Чоловіча" />Чоловіча</label
+      >
+      <label><input type="radio" name="gender" value="Жіноча" />Жіноча</label
+      ><br />
+    </form>
+    <form>
+      <label>На якій ти стороні?</label> <br />
+      <label
+        ><input type="radio" name="gender" value="Dog" />На стороні собак</label
+      ><br />
+      <label
+        ><input type="radio" name="gender" value="cat" />На стороні
+        коотів</label
+      ><br />
+      <label
+        ><input type="radio" name="gender" value="all" />Не можу
+        визначитись</label
+      ><br />
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
